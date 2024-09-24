@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de Impuestos</title>
+</head>
+<body>
+    <div id="logo"><img src="logo.png" alt="Logo de la Calculadora de Impuestos"></div>
+    <div class="container">
+        <h1>Calculadora de Impuestos</h1>
+        <form id="formImpuestos">
+            <label for="monto">Monto de la compra en el extranjero:</label>
+            <input type="number" id="monto" required>
+            <button type="submit">Calcular</button>
+        </form>
+        <div id="resultado"></div>
+        <h2>Historial</h2>
+        <ul id="historial"></ul>
+        <button id="limpiarHistorial">Limpiar Historial</button>
+    </div>
+
+    <footer>
+   <div id="carrusel-dolares">
+    <div id="dolares-container">    
+
+       <button id="prev" class="carrusel-control">&lt;</button>
+       <div id="dolares-container"></div>
+       <button id="next" class="carrusel-control">&gt;</button>
+   </div>
+
+   
+</footer>
+    
+    <script src="index.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
+
+</body>
+</html>
